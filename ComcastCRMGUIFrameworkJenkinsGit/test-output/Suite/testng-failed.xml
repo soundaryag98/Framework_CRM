@@ -5,6 +5,11 @@
     <listener class-name="com.comcast.crm.Listener.List_ImplementationClass"/>
   </listeners>
   <test thread-count="5" name="Test(failed)">
+    <groups>
+      <run>
+        <include name="regression"/>
+      </run>
+    </groups>
     <classes>
       <class name="com.comcat.crm.OrgTest.CreateOrganization__Test">
         <methods>
@@ -15,8 +20,6 @@
           <include name="createOrgWithPhoneNumber"/>
           <include name="configBm"/>
           <include name="configAM"/>
-          <include name="createOrgWithIndus_Type"/>
-          <include name="createOrg"/>
         </methods>
       </class> <!-- com.comcat.crm.OrgTest.CreateOrganization__Test -->
     </classes>
