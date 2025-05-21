@@ -1,0 +1,7 @@
+{
+"browser":"chrome",
+"url":"http://localhost:8888/index.php",
+"usn":"admin",
+"psw":"admin",
+"timeout":10
+}
